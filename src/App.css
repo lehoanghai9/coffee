@@ -1,0 +1,26 @@
+html{
+  background-color: #FEFCF7;
+  overflow-x: hidden;
+}
+
+.closed{
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0,1,0,1);
+}
+
+.closed.show {
+  max-height: 1000px;
+  transition: all 0.4s cubic-bezier(1,0,1,0);
+}
+
+.closedmenu{
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in;
+}
+
+.closedmenu.show {
+  max-height: 1000px;
+  transition: all 0.3s ease-in;
+}
